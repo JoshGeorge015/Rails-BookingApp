@@ -32,7 +32,7 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'modernizr-rails'
 gem 'jquery-rails'
-gem 'paperclip', '~> 4.1'
+gem 'paperclip', '~> 5.2'
 
 
 group :development, :test do
