@@ -1,0 +1,69 @@
+<title>Home</title>
+<header>
+  <% if user_signed_in? %>
+  You have successfully logged in!
+  <% else %>
+  "Welcome to the Booking App. Please select the login button to continue to your account."
+  <% end %></header>
+<!--<script type="text/javascript">-->
+<!--    $(function() {-->
+<!--        $("table tr:nth-child(even)").addClass("striped");-->
+<!--    });-->
+<!--</script>-->
+<!--<include></include>-->
+<%= javascript_include_tag('TableStyle.js') %>
+<body>
+<%#= link_to("Make a booking", new_booking_path) %>
+<% if user_signed_in? %>
+<p></p>
+  <title style="align-content: center">Main Page</title>
+  <p></p>
+
+  <table id ="InfoTable", style="align-self: center", width="600px", border="5">
+    <thead>
+    <ta align="center"> Bookings Menu</ta>
+    <td>Link</td>
+    <td>Functionality</td>
+    </thead>
+    <tbody>
+<!--    <tr>-->
+<!--      <td><%#= link_to("Make a booking", new_booking_path) %>-->
+<!--      </td>-->
+<!--      <td><%#= "Create a new booking"%>-->
+<!--    </td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--      <td><%#= link_to("Show My bookings", bookings_path) %>-->
+<!--      </td>-->
+<!--      <td><%#= "View your booking details"%>-->
+<!--      </td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--      <td></td>-->
+<!--      <td><%#= link_to("Edit My bookings", edit_booking_path(Booking.find_by_user_id(current_user.email))) %>-->
+<!--      </td>-->
+<!--      <td><%#= "Edit your booking "%>-->
+<!--      </td>-->
+<!--    </tr>-->
+
+        </tbody>
+
+  </table>
+  <% end %>
+</body>
+<%#=
+<!-- "HOME PAGE" -->
+<!-- </header> -->
+<!-- <body>
+  <%# <% if user_signed_in? %>
+
+
+
+<script type="text/javascript" charset="utf-8">
+    var tableRows = document.getElementsByTagName('tr');
+
+    for (var i = 0; i < tableRows.length; i++) {
+        tableRows[i].style.backgroundColor = (i % 2)?"red":"yellow";
+    }
+
+</script>

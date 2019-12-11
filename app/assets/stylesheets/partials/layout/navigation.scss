@@ -1,0 +1,39 @@
+$navbarColor: orange;
+
+nav {
+  .navbar-header {
+    width: 40%;
+    button, .navbar-brand {
+      transition: opacity 0.15s;
+      color: black;
+
+    }
+    button {
+      margin-right: 0;
+
+    }
+    color: blue;
+    // $navbarColor: orange;
+    button:hover, .navbar-brand:hover {
+      opacity: 0.8;
+
+      text-align: center;
+
+    }
+  }
+}
+
+
+// .nav.navbar-nav.navbar-right li a {
+//     color: blue;
+// }
+.navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
+  background: $navbarColor ;
+  border: none;
+  a {
+    color: black ;
+  }
+}
+body {
+ margin-top: 50px;
+}

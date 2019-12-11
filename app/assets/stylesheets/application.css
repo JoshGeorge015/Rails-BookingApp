@@ -1,0 +1,64 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *= require_tree
+ *= require_self/
+ /* // Bootstrap
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// Variables
+@import "base/variables";
+
+// Partials - main css files
+@import "partials/layout/*"; */
+h2{
+  padding-top: 50px;
+  left: 50%;
+  align-self: center;
+  color: green;
+}
+body{
+  background-color: blue;
+  font-weight: 600;
+  text-decoration-color: black;
+}
+ table{
+     /*align-self: center;*/
+     width: 450px;
+     text-align: center;
+     height: 100px;
+     margin-top: 10%;
+     margin-left: 40%;
+     text-decoration: #BBBBBB;
+        font-size: 40px;
+        top:50%;
+        left:50%;
+ }
+ /*td{*/
+ /*    width: 150px;*/
+ /*}*/
+.button{
+	/* background styles */
+	position: relative;
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: green; /*for compatibility with older browsers*/
+	background-image: linear-gradient(green,lightgreen);
+  border: black;
+	/* text styles */
+	/* text-decoration: none; */
+  text-decoration-color: black;
+	color: #fff;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 100;
+}

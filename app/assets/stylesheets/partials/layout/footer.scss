@@ -1,0 +1,32 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  // align-self: bottom;
+  // margin-bottom: 45px;
+  // padding-top: 5px;
+  border-top: 2px solid black;
+  color: black;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: greens;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
